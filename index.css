@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+     
+
+}
+body{
+     background-image: url("backpic1.jpg");
+     background-size: cover;
+display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ 
+.container{
+ background-color: #715A5A;
+    height: 600px;
+    width: 500px;;
+    border-radius: 1rem;
+    border: 2px solid rgb(177, 168, 173);
+    box-shadow: 0 4px 20px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ h2{
+    text-align: center;
+font-family:'Courier New';
+    font-size: 40px;
+    color: #EEE6CA;
+    padding-bottom: 25px;
+
+}
+
+.detail{
+    width: 300px;
+    height:40px;
+    padding-left: 10px;
+    margin: 10px 0 10px 0;
+    border-radius:1rem;
+    border: none;
+    border:2px solid rgb(72, 45, 60);
+    font-size:20px;
+    color:rgb(92, 50, 50);
+    font-family: ' monospace';
+    font-weight: bold;
+}
+
+.instruct{
+    padding-left: 67px;
+    font-family: ' monospace';
+    color: #E8D4B7;
+}
+.eye{
+    margin-top:10px;
+}
+button{
+    height:48px;
+    width: 313px;
+       border-radius:1rem;
+    border: none;
+    border:2px solid rgb(72, 45, 60);
+    font-size:20px;
+    color:rgb(92, 50, 50);
+    font-family: ' monospace';
+    font-weight: bold;
+    margin-top:1.2rem;
+}
+button:hover{
+
+  background-color: #E8D4B7;
+  color: #000;
+  cursor: pointer;
+}
+
+.reme{
+    font-family: ' monospace';
+    font-weight: bold;
+    color: #E8D4B7;
+    padding-right:50px;
+}
+h{
+    font-family: ' monospace';
+ font-size: 16px;
+padding-top:10px;
+    color: #040301;
+   
+}
+.last{
+    padding-left:30px;
+    padding-top:10px;
+}
+.order{
+    font-family: ' monospace';
+   
+    color: #E8D4B7;
+}
+a:hover {
+  text-decoration: underline;
+}
