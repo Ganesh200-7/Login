@@ -9,6 +9,7 @@ btns.addEventListener('click', (evt) =>{
     } else {
 
         alert("Form submitted");
-        // Add your backend login logic or redirect here
+    
     }
+
 });
