@@ -7,8 +7,8 @@ btns.addEventListener('click', (evt) =>{
     if (!username || !password) {
         alert("Please enter both username and password.");
     } else {
+
         alert("Form submitted");
         // Add your backend login logic or redirect here
     }
-
 });
